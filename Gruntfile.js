@@ -79,7 +79,7 @@ module.exports = function(grunt) {
       }
     }
   };
-  if (electron) { 
+  /*if (electron) {
     init.electron = {
       winBuild: {
         options: {
@@ -115,7 +115,7 @@ module.exports = function(grunt) {
         }
       }
     };
-  }
+  }*/
   grunt.initConfig(init);
   grunt.loadNpmTasks('grunt-version');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
